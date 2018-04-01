@@ -21,6 +21,7 @@ fi
 cd
 
 
+MYIP=$(wget -qO- ipv4.icanhazip.com);
 
 clear
 echo "-------------- OCS Panels Installer for Debian -----------------"
