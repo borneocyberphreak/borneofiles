@@ -112,7 +112,7 @@ chmod 777 /home/vps/public_html/config/config.ini
 chmod 777 /home/vps/public_html/config/route.ini
 
 clear
-echo "Buka Browser, akses alamat http://$MYIP:81/ dan lengkapi data2 seperti dibawah ini!"
+echo "Buka Browser, akses alamat http://$MYIP:88/ dan lengkapi data2 seperti dibawah ini!"
 echo "Database:"
 echo "- Database Host: localhost"
 echo "- Database Name: $DatabaseName"
@@ -154,10 +154,9 @@ echo "unset HISTFILE" >> /etc/profile
 # info
 clear
 echo "=======================================================" | tee -a log-install.txt
-echo "Silahkan login OCS Panels di http://$MYIP:81/" | tee -a log-install.txt
+echo "Silahkan login OCS Panels di http://$MYIP:88/" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo "ALL SUPPORTED BY BORNEO CYBER PHREAK" | tee -a log-install.txt
-
+echo "MODIFIED BY BORNEO CYBER PHREAK" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "Log Instalasi --> /root/log-install.txt" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
