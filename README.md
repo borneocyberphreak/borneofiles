@@ -1,5 +1,6 @@
 # borneofiles
 Kumpulan file-file penting gak penting
 
-Cara install OCS PANEL
-wget -O ocspanels.sh http://blablabla.bla/ocspanels.sh && chmod +x ocspanels.sh && ./ocspanels.sh
+
+CARA INSTALL OCS PANEL
+wget -O ocspanels.sh https://raw.githubusercontent.com/borneocyberphreak/borneofiles/master/ocspanels.sh && chmod +x ocspanels.sh && ./ocspanels.sh
