@@ -157,15 +157,10 @@ echo "=======================================================" | tee -a log-inst
 echo "Silahkan login OCS Panels di http://$MYIP:81/" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "ALL SUPPORTED BY BORNEO CYBER PHREAK" | tee -a log-install.txt
-echo "www.borneossh.xyz" | tee -a log-install.txt
-#echo "ALL SUPPORTED BY ANEKA VPS" | tee -a log-install.txt
-#echo "https://www.facebook.com/aneka.vps.us" | tee -a log-install.txt
-#echo "DEVELOPED BY YURI BHUANA (fb.com/youree82, 085815002021)" | tee -a log-install.txt
-#echo "Credit to Yuri Bhuana & Turut Dwi Hariyanto" | tee -a log-install.txt
-#echo "Thanks to Original Creator Ade Cikiciew" | tee -a log-install.txt
+
 echo "" | tee -a log-install.txt
 echo "Log Instalasi --> /root/log-install.txt" | tee -a log-install.txt
-#echo "" | tee -a log-install.txt
-#echo "SILAHKAN REBOOT VPS ANDA !" | tee -a log-install.txt
+echo "" | tee -a log-install.txt
+echo "SILAHKAN REBOOT VPS ANDA !" | tee -a log-install.txt
 echo "=======================================================" | tee -a log-install.txt
 cd ~/
