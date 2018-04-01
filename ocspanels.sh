@@ -23,10 +23,10 @@ cd
 
 
 clear
-echo "--------------------------------- OCS Panels Installer for Debian -------------------------------"
-echo "                               ALL SUPPORTED BY: BORNEO CYBER PHREAK                             "
-echo "                                          www.borneossh.xyz                                      "
-echo "-------------------------------------------------------------------------------------------------"
+echo "-------------- OCS Panels Installer for Debian -----------------"
+echo "            ALL SUPPORTED BY: BORNEO CYBER PHREAK               "
+echo "                      www.borneovps.tk                          "
+echo "----------------------------------------------------------------"
 echo ""
 echo ""
 echo "Saya perlu mengajukan beberapa pertanyaan sebelum memulai setup"
