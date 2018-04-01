@@ -20,19 +20,7 @@ fi
 # go to root
 cd
 
-MYIP=$(wget -qO- ipv4.icanhazip.com);
 
-# check registered ip
-#wget -q -O "IP" "http://scripts.gapaiasa.com/IP.txt"
-wget -q -O "IP" "http://script.borneossh.xyz/IP.txt"
-if ! grep -w -q $MYIP IP; then
-	echo "Maaf, hanya IP yang terdaftar yang bisa menggunakan script ini!"
-	echo "Hubungi: Borneo Cyber Phreak | www.borneossh.xyz"
-	rm -f /root/IP
-	exit
-fi
-
-#https://github.com/adenvt/OcsPanels/wiki/tutor-debian
 
 clear
 echo "--------------------------------- OCS Panels Installer for Debian -------------------------------"
@@ -91,8 +79,6 @@ rm /etc/nginx/sites-available/default
 mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf.old
 curl http://script.borneossh.xyz/OCSPanels/nginx.conf > /etc/nginx/nginx.conf
 curl http://script.borneossh.xyz/OCSPanels/vps.conf > /etc/nginx/conf.d/vps.conf
-#curl http://anekascript.anekavps.us:81/OCSPanels/nginx.conf > /etc/nginx/nginx.conf
-#curl http://anekascript.anekavps.us:81/OCSPanels/vps.conf > /etc/nginx/conf.d/vps.conf
 sed -i 's/cgi.fix_pathinfo=1/cgi.fix_pathinfo=0/g' /etc/php5/fpm/php.ini
 sed -i 's/listen = \/var\/run\/php5-fpm.sock/listen = 127.0.0.1:9000/g' /etc/php5/fpm/pool.d/www.conf
 
