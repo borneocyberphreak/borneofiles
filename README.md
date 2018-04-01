@@ -1,6 +1,11 @@
 # borneofiles
 Kumpulan file-file penting gak penting
 
-
 <b>CARA INSTALL OCS PANEL</b><br>
-wget -O ocspanels.sh https://raw.githubusercontent.com/borneocyberphreak/borneofiles/master/ocspanels.sh && chmod +x ocspanels.sh && ./ocspanels.sh
+wget -O ocspanels.sh https://raw.githubusercontent.com/borneocyberphreak/borneofiles/master/ocspanels.sh && chmod +x ocspanels.sh && ./ocspanels.sh<br>
+
+<b>CARA UNINSTALL OCS PANEL</b><br>
+sudo apt-get --purge remove mysql-client mysql-server mysql-common<br>
+sudo apt-get autoremove<br>
+sudo rm -rf /etc/mysql<br>
+sudo rm -rf /var/lib/mysql<br>
