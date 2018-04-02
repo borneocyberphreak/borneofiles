@@ -5,40 +5,8 @@ if [[ $USER != "root" ]]; then
 	exit
 fi
 
-# initialisasi var
-export DEBIAN_FRONTEND=noninteractive
-OS=`uname -m`;
-MYIP=$(wget -qO- ipv4.icanhazip.com);
-MYIP2="s/xxxxxxxxx/$MYIP/g";
-ether=`ifconfig | cut -c 1-8 | sort | uniq -u | grep venet0 | grep -v venet0:`
-if [[ $ether = "" ]]; then
-        ether=eth0
-fi
-
-vps="borneo";
-#vps="zvur";
-
-if [[ $vps = "borneo" ]]; then
-	source="http://script.borneocyberphreak.tk"
-else
-	source="http://scripts.gapaiasa.com"
-fi
-
 # go to root
 cd
-
-# check registered ip
-wget -q -O IP $source/IP.txt
-if ! grep -w -q $MYIP IP; then
-	echo "Maaf, hanya IP yang terdaftar yang bisa menggunakan script ini!"
-	if [[ $vps = "borneo" ]]; then
-		echo "Hubungi: Borneo Cyber Phreak | www.borneocyberphreak.tk"
-	else
-		echo "Hubungi: Yuri Bhuana (fb.com/youree82 atau 0858 1500 2021)"
-	fi
-	rm -f /root/IP
-	exit
-fi
 
 cd /
 
