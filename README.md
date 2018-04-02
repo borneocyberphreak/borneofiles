@@ -9,3 +9,6 @@ sudo apt-get --purge remove mysql-client mysql-server mysql-common<br>
 sudo apt-get autoremove<br>
 sudo rm -rf /etc/mysql<br>
 sudo rm -rf /var/lib/mysql<br>
+
+<b>CARA INSTALL KLOXO-MR CENTOS 6/7 32/64 bit</b><br>
+wget -O kloxo.sh https://raw.githubusercontent.com/borneocyberphreak/borneofiles/master/kloxo.sh && chmod +x kloxo.sh && ./kloxo.sh<br>
